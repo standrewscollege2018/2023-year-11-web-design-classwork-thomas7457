@@ -1,0 +1,44 @@
+/* This is our stylesheet */
+
+/* We have to reset margins */
+@font-face{
+    font-family: my_first_font;
+    src: font/url("code128.ttf");
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: my_first_font, comic sans ms, Helvetica, sans-serif;
+
+
+}
+
+/* We can redefine html tags */
+body {
+    background-color: rgb(12,16,19);
+    padding: 15px;
+}
+p {
+    color: rgb(255,255,255)
+}
+h1 {
+    color: white;
+    margin-bottom: 25px;
+}
+h2 {
+    color: white
+}
+li {
+    color: white
+
+}
+a:link {
+    color: purple;
+}
+a:visited{
+    color: lime;
+}
+a:hover{
+    color: blue
+    
+}
