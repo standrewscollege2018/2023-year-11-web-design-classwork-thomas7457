@@ -7,6 +7,8 @@
 .container img{
     max-width: 100%;
     height: auto;
+    
+    
 }
 .container {
     margin: 25px;
@@ -18,6 +20,68 @@ body{
 }
 .topbar{
     display: grid;
-    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 80px;
+    grid-auto-flow: column;
+
+
+
+}
+.card { 
+    background-color: green;
+}
+.maincontent{
+    display: grid;
+    grid-template-columns: 60% 20%;
+    margin-top: 50px;
+    margin-left: 120px;
+    grid-gap: 100px;
+}
+.sidebar{
+    display:grid;
+    grid-template-columns: none;
+    padding: 10px;
+}
+.content{
+    margin-top: 50px;
+}
+.question {
+    color: blue;
+    
+    font-size: 20px;
+}
+h2{
+    color:lightskyblue;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.blurb{
+    margin-top: 10px;
+}
+.bottombar{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 80px;
+    grid-auto-flow: column;
+    background-color: #bebebe;
+}
+@media only screen and (max-width: 800px){
+    .maincontent{
+        grid-template-columns: none;
+    }
+    .maincontent{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .sidebar{
+        grid-auto-flow: column;
+    }
+    .question{
+        display: none;
+    }
 }
 
