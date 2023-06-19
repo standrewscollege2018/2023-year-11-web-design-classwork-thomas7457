@@ -1,0 +1,59 @@
+@font-face{
+    font-family: title;
+    src: url(Mexican\ City\ Free\ Trial.otf)
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("pexels-ella-olsson-1640772.jpg");
+    background-size: 100%;
+}
+.container{
+    display:grid;
+    padding:50px;
+    
+}
+.navbar{
+    
+    background-color: #386641;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+    
+
+}
+.flag{
+    border: 3px solid black;
+    text-align: right;
+    height: 50%;
+    width:auto;
+    margin-top:45px;
+}
+.menubutton{
+    font-size: 100px;
+    
+    align:top;
+    margin-top: 55px;
+    color:#FCDF4D;
+    font-family: title;
+}
+.combo{
+    display: grid;
+    grid-auto-flow: column; 
+}
+.name{
+    font-size: 100px;
+    margin-top: 55px;
+    margin-left:15px;
+    color:#FCDF4D;
+    font-family: title;
+}
+.about{
+    background-color:#9B2915;
+    margin-top: 30px;
+    padding: 5px 50px 5px 50px;
+}
